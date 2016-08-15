@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+
+# Project specific files
+./config/env/set_env.sh
+#./config/env/productiom.js
