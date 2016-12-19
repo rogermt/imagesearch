@@ -32,7 +32,7 @@ exports.doSearch = function(req, res, next) {
     }
 
     var api = request(
-        //'https://www.googleapis.com/customsearch/v1?q=agile&cx=000074947869562340853%3Amsfl_tclyfo&searchType=image&key=AIzaSyC15fwudyTF7v2Bz-NoXFSBYYMwVxec4As',
+        
         {
             url: GOGLE_CSE_URL,
             qs: qs
